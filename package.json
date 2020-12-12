@@ -1,8 +1,8 @@
 {
   "name": "draft-js-live-markdown-plugin",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A DraftJS plugin for writing markdown that styles and parses on the fly.",
-  "main": "dist/bundle.js",
+  "main": "src/index.js",
   "scripts": {
     "build:dev": "webpack-cli",
     "build:less": "lessc demo/src/styles/index.less demo/public/styles/index.css",
